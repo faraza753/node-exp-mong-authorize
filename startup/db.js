@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 
 module.exports = () => {
-    mongoose.connect('enter connection string', {
+    mongoose.connect(' connection string', {
         
     }).then(() => console.log('Mongo Db Connected.....'));
 }
